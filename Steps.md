@@ -7,7 +7,7 @@ docker network create -d bridge chai-fullstack-net
 ### Run Redis:
 
 ``` 
-docker run -d -p 6379:6379 --rm -v redis:/var/lib/redis --network chai-fullstack-net --name chai-fullstack-redis redis --requirepass "Test#123" 
+docker run -d -p 6379:6379 --rm -v redis:/data --network chai-fullstack-net --name chai-fullstack-redis redis --requirepass "Test#123" 
 ```
 
 ### Run Mongodb:
