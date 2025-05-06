@@ -1,0 +1,7 @@
+name: "chai-courses"
+
+services:
+  redis: 
+    image: redis
+    container_name: redis
+    

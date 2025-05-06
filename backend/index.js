@@ -2,7 +2,7 @@ import cors from "cors";
 import dotenv from "dotenv";
 import express from "express";
 
-// Database
+// // Database
 import { mongoClient } from "./libs/db.js";
 
 // Routes
@@ -12,6 +12,8 @@ dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 8080;
+
+console.log(PORT);
 
 app.use(express.json());
 app.use(
@@ -24,7 +26,7 @@ app.use(
 
 app.get("/", (_req, res) => {
   res.status(200).json({
-    message: "Welcome to ChaiCode API ☕️",
+    message: "Welcome to Chai Aur Devops API ☕️",
   });
 });
 
