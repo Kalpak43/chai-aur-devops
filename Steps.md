@@ -1,3 +1,5 @@
+<!-- I tried to manually do these steps before using docker-compose for practicing. -->
+
 ### Setup network:
 
 ```
