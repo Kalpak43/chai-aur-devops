@@ -1,4 +1,4 @@
-I tried to manually do these steps before using docker-compose for practice and understanding.
+I tried to manually do these steps before using docker-compose for practice and understanding. Ignore this.
 
 ### Setup network:
 
